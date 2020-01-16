@@ -4,7 +4,6 @@ const Dev = require('../models/Dev');
 // index, show, store, update, destroy
 
 module.exports = {
-
   async index(request, response) {
     const devs = await Dev.find();
 
