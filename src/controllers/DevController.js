@@ -38,10 +38,6 @@ module.exports = {
         location
       });
 
-      // Filtrar as conexões do arrary e buscar as que satisfaçam as regras de negocio
-      // max 10 km de distancia
-      // dev tem que ter pelo menos uma tec
-
       const sendSocketMessageTo = findConnections(
         { latitude, longitude },
         techsArray
